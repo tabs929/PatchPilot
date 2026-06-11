@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtualenv / uv
+.venv/
+.uv-cache/
+
+# Secrets
+.env
+
+# PatchPilot runtime artifacts
+repos_cache/
+predictions/
+logs/
+*.swebench.json
+*.log
+
+# OS
+.DS_Store
